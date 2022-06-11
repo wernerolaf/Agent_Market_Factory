@@ -1,0 +1,75 @@
+
+
+{
+    "exp_title" : "14. Multiple components being manufactured",
+"Machines":[
+{
+"number":2,
+"inputs":{"parts":0},
+"outputs":{"parts":1},
+"production_time":1,
+"chance_to_break":-1,
+"magazine":{"parts":0},
+"item_prices":{"parts":25},
+"euro":0,
+"up_price":1.2,
+"down_price":0.9
+},
+{
+    "number":2,
+    "inputs":{"parts":10},
+    "outputs":{"engine":1},
+    "production_time":5,
+    "chance_to_break":-1,
+    "magazine":{"parts":0,"engine":0},
+    "item_prices":{"engine":400},
+    "euro":0,
+    "up_price":1.2,
+    "down_price":0.9
+    },
+    {
+        "number":2,
+        "inputs":{"parts":5},
+        "outputs":{"body":1},
+        "production_time":3,
+        "chance_to_break":-1,
+        "magazine":{"parts":0,"body":0},
+        "item_prices":{"body":400},
+        "euro":0,
+        "up_price":1.2,
+        "down_price":0.9
+        },
+        {
+            "number":2,
+            "inputs":{"parts":10,"engine" : 1,"body": 1},
+            "outputs":{"car":1},
+            "production_time":20,
+            "chance_to_break":-1,
+            "magazine":{"parts":0,"engine" : 0,"body": 0,"car":0},
+            "item_prices":{"car":400},
+            "euro":0,
+            "up_price":1.2,
+            "down_price":0.9
+            }
+],
+
+"Orders":[
+        {
+            "number":1,
+            "need":"car",
+            "magazine":{"car":0},
+            "request_time":1,
+            "max_item_price":2000
+            }],
+
+"Maintainers":[
+
+{
+"number":1,
+"repair_time":3
+}
+
+]
+
+
+}
