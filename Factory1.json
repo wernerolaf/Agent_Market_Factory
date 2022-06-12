@@ -13,7 +13,6 @@
 "down_price":0.9
 }
 ],
-
 "Orders":[{
 "number":3,
 "need":"milk",
@@ -22,15 +21,10 @@
 "max_item_price":500
 }
 ],
-
 "Maintainers":[
-
 {
 "number":1,
 "repair_time":3
 }
-
 ]
-
-
 }
