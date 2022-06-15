@@ -4,7 +4,7 @@
 "number":2,
 "inputs":{"milk":0},
 "outputs":{"milk":1},
-"production_time":1,
+"production_time":2,
 "chance_to_break":-1,
 "magazine":{"milk":0},
 "item_prices":{"milk":400},
