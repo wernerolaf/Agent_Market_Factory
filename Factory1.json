@@ -1,30 +1,75 @@
+
+
 {
+    "exp_title" : "14. Multiple components being manufactured",
 "Machines":[
 {
-"number":2,
-"inputs":{"milk":0},
-"outputs":{"milk":1},
-"production_time":2,
+"number":4,
+"inputs":{"parts":0},
+"outputs":{"parts":1},
+"production_time":1,
 "chance_to_break":-1,
-"magazine":{"milk":0},
-"item_prices":{"milk":400},
+"magazine":{"parts":0},
+"item_prices":{"parts":250},
 "euro":0,
-"up_price":1.2,
-"down_price":0.9
-}
+"up_price":1.1,
+"down_price":0.95
+},
+{
+    "number":1,
+    "inputs":{"parts":10},
+    "outputs":{"engine":1},
+    "production_time":1,
+    "chance_to_break":-1,
+    "magazine":{"parts":0,"engine":0},
+    "item_prices":{"engine":400},
+    "euro":0,
+    "up_price":1.1,
+    "down_price":0.95
+    },
+    {
+        "number":1,
+        "inputs":{"parts":5},
+        "outputs":{"body":1},
+        "production_time":1,
+        "chance_to_break":-1,
+        "magazine":{"parts":0,"body":0},
+        "item_prices":{"body":400},
+        "euro":0,
+        "up_price":1.1,
+        "down_price":0.95
+        },
+        {
+            "number":1,
+            "inputs":{"parts":10,"engine" : 1,"body": 1},
+            "outputs":{"car":1},
+            "production_time":1,
+            "chance_to_break":-1,
+            "magazine":{"parts":0,"engine" : 0,"body": 0,"car":0},
+            "item_prices":{"car":400},
+            "euro":0,
+            "up_price":1.1,
+            "down_price":0.95
+            }
 ],
-"Orders":[{
-"number":3,
-"need":"milk",
-"magazine":{"milk":0},
-"request_time":1,
-"max_item_price":500
-}
-],
+
+"Orders":[
+        {
+            "number":1,
+            "need":"car",
+            "magazine":{"car":0},
+            "request_time":1,
+            "max_item_price":2000
+            }],
+
 "Maintainers":[
+
 {
 "number":1,
 "repair_time":3
 }
+
 ]
+
+
 }
