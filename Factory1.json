@@ -4,7 +4,7 @@
     "exp_title" : "14. Multiple components being manufactured",
 "Machines":[
 {
-"number":4,
+"number":13,
 "inputs":{"parts":0},
 "outputs":{"parts":1},
 "production_time":1,
@@ -41,7 +41,7 @@
         },
         {
             "number":2,
-            "inputs":{"parts":4,"engine" : 1,"body": 1},
+            "inputs":{"engine" : 1,"body": 1},
             "outputs":{"car":1},
             "production_time":1,
             "chance_to_break":-1,
